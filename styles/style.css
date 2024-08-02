@@ -1,0 +1,137 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif;
+
+}
+
+body{
+    background:rgb(9, 9, 9);
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+}
+
+.header-section{
+    position: auto ;
+    top:0;
+    left: 0;
+    margin-top: 57px;
+    width: 100%;
+    padding: 20px 15%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 36px;
+    color: #E6533C;
+    font-weight: bolder;
+}
+
+.navbar a{
+    font: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 35px ;
+}
+.home-button{
+    background-color: #E6533C;
+    border-radius: 46px;
+    width: 92px;
+    height: 48px;
+}
+
+
+/* nav section ended */
+
+.home{
+    height: 100vh;
+    padding: 0 15%;
+    align-items: center;
+}
+
+.home-conteinar{
+    position: relative;
+    max-width: 600px;
+    padding-top: 96px;
+}
+
+.home-conteinar h1{
+    font-size:78px ;
+    width: 520px;
+    color: white;
+    line-height: 1;
+
+}
+
+.banner-img img{
+    position: absolute;
+    left: 570px;
+    bottom: 40px;
+    left: 530px;
+    top: 10px;
+
+}
+
+.home-conteinar .miama-font{
+    font-family: 'Miama', sans-serif;
+}
+
+.home-conteinar p{
+    font-size: 16px;
+    padding: 20px 0px 100px;
+    opacity:50% ;
+    font-weight: bold;
+}
+
+
+.home-conteinar .btn-box{
+    display:flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background: #E6533C;
+    border: 2px solid #ffffff;
+    border-radius: 42px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+}
+
+.btn-box a:nth-child(1){
+    border: none;
+}
+
+/* ended hedear section */
+
+
